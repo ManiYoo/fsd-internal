@@ -1,0 +1,10 @@
+import { subscribe } from "diagnostics_channel";
+import path from "path";
+const filePath = "D:/fsd-internal/factorial.js";
+console.log(path.dirname(filePath));
+console.log(path.basename(filePath));
+console.log(path.extname(filePath));
+const joinedPath = path.join("home", "folder", "subfolder", "file.txt");
+console.log(joinedPath);
+const resolvedPath = path.resolve("home", "folder", "subfolder", "file.txt");
+console.log(resolvedPath);
